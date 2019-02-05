@@ -63,6 +63,21 @@ a {
   text-transform: uppercase;
 }
 
+.text-block.creditline {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  font-family: Arnhem;
+  font-size: 15px;
+  text-align: center;
+  text-transform: none;
+}
+
 .chapter {
   position: static;
   display: block;
@@ -119,7 +134,7 @@ a {
   height: 100vh;
   background-image: url('../images/tbilisi-drone-still-1.jpg');
   background-position: 50% 50%;
-  background-size: cover;
+  background-size: auto;
   background-attachment: fixed;
 }
 
@@ -499,6 +514,66 @@ a {
   display: none;
 }
 
+.captionfirstimage {
+  display: block;
+  padding-top: 0vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  font-family: Arnhem;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+}
+
+.firstimagecaption {
+  margin-top: 32vh;
+  font-family: Arnhem;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+}
+
+.text-block-2 {
+  margin-top: 20vh;
+}
+
+.div-block-19 {
+  height: 200px;
+}
+
+.text-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  padding-bottom: 1%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  font-family: Arnhem;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+}
+
 @media (max-width: 767px) {
   .notes.notes-top.note-hide {
     display: none;
@@ -677,6 +752,57 @@ a {
   }
   .hidecap.mob {
     display: block;
+  }
+  .captionfirstimage {
+    padding-top: 62vh;
+    font-family: Arnhem;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+  }
+  .firstimagecaption {
+    position: static;
+    display: block;
+    margin-top: 62vh;
+    margin-bottom: 0vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    font-family: Arnhem;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+  }
+  .text-block-3 {
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fff;
   }
 }
 
